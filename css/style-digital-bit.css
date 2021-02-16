@@ -3,10 +3,10 @@ body{
 }
 
 .sp-shaker{
-	position:relative;
-	width: 600px;
-	height: 600px;
-	background: lightgrey;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: #f9f67e;
 }
 
 .cactus{
