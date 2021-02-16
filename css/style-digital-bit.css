@@ -1,0 +1,30 @@
+body{
+
+}
+
+.sp-shaker{
+	position:relative;
+	width: 600px;
+	height: 600px;
+	background: lightgrey;
+}
+
+.cactus{
+	position: absolute;
+    width: 200px;
+    height: 220px;
+    background: #27c127b8;
+    top: 85px;
+    left: 175px;
+    border-radius: 90px 90px 100px 100px;
+}
+
+.planter{
+	position: absolute;
+    width: 200px;
+    height: 175px;
+    background-color: orange;
+    top: 281px;
+    left: 175px;
+    border-radius: 20px 20px 75px 75px;
+}
