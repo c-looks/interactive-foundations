@@ -1,3 +1,28 @@
-body {background-color: #fff707;}
+body {background-color: #caf75d;}
 
 body {font-family: helvetica;}
+
+body {margin: 32px;}
+
+h1{
+	font-style: bold;
+}
+
+h1:hover{
+	font-style: italic;
+	color: pink;
+}
+
+h3{
+	font-style:bold;
+}
+
+h3:hover{
+	font-style: italic;
+	color: orange;
+}
+
+img{
+	width: 50%;
+	height: auto;
+}
