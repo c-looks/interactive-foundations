@@ -8,7 +8,7 @@ body{
 
 .bounding-box{
     position: relative;
-    width: 385px;
+    width: 415px;
     height: 550px;
     background: none;
     margin: 20px;
@@ -22,6 +22,11 @@ body{
 .halfcircle-veritcal:hover{
     transform: rotate(180deg);
     background-color: pink;
+}
+
+.halfcircle-horizontal-small:hover{
+    transform: rotate(180deg);
+    background-color: orange;
 }
 
 .halfcircle-horizontal{
@@ -38,6 +43,13 @@ body{
     background: black;
 }
 
+.halfcircle-horizontal-small{
+    position: absolute;
+    width: 45px;
+    height: 22.5px;
+    background: black;
+}
+
 .top1{
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
@@ -48,15 +60,22 @@ body{
 .top2{
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
-    top: 450px;
+    top: 256px;
     left: 60px;
 }
 
 .top3{
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
-    top: 450px;
-    left: 233px;
+    top: 256px;
+    left: 145px;
+}
+
+.top4{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    top: 256px;
+    left: 231px;
 }
 
 .bottom1{
@@ -76,43 +95,29 @@ body{
 .bottom3{
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
-    top: 493px;
-    left: 146px;
+    top: 278px;
+    left: 102px;
+}
+
+.bottom4{
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    top: 278px;
+    left: 187px;
 }
 
 .right1{
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    top: 60px;
-    left: 322px;
-}
-
-.right2{
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    top: 231px;
-    left: 322px;
-}
-
-.right3{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     top: 318px;
     left: 60px;
 }
 
-.right4{
+.right2{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     top: 146px;
     left: 60px;
-}
-
-.right5{
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    top: 405px;
-    left: 322px;
 }
 
 .left1{
@@ -122,31 +127,19 @@ body{
     left: 16px;
 }
 
+
 .left2{
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    top: 146px;
-    left: 281px;
-}
-
-.left3{
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    top: 318px;
-    left: 281px;
-}
-
-.left4{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     top: 405px;
     left: 16px;
 }
 
-.left5{
+.left3{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     top: 231px;
     left: 16px;
 }
+
 }

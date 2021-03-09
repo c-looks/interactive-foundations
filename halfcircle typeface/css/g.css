@@ -10,8 +10,23 @@ body{
     position: relative;
     width: 385px;
     height: 550px;
-    background: lightgrey;
+    background: none;
     margin: 20px;
+}
+
+.halfcircle-horizontal:hover{
+    transform: rotate(180deg);
+    background-color: orange;
+}
+
+.halfcircle-veritcal:hover{
+    transform: rotate(180deg);
+    background-color: pink;
+}
+
+.halfcircle-horizontal-small:hover{
+    transform: rotate(180deg);
+    background-color: orange;
 }
 
 .halfcircle-horizontal{

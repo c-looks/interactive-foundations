@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.bounding-box{
+    position: relative;
+    width: 500px;
+    height: 550px;
+    background: none;
+    margin: 20px;
+}
+
+.halfcircle-veritcal:hover{
+    transform: rotate(180deg);
+    background: pink;
+}
+
+.halfcircle-horizontal-small:hover{
+    transform: rotate(180deg);
+    background: orange;
+}
+
+.halfcircle-horizontal{
+    position: absolute;
+    width: 90px;
+    height: 45px;
+    background: black;
+}
+
+.halfcircle-veritcal{
+    position: absolute;
+    width: 45px;
+    height: 90px;
+    background: black;
+}
+
+.halfcircle-horizontal-small{
+    position: absolute;
+    width: 45px;
+    height: 22.5px;
+    background: black;
+}
+
+.right1{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    top: 146px;
+    left: 238px;
+}
+
+.right2{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    top: 318px;
+    left: 238px;
+}
+
+
+.left1{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    top: 60px;
+    left: 193px;
+}
+
+
+.left2{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    top: 232px;
+    left: 193px;
+}
+
+.left3{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    top: 404px;
+    left: 193px;
+}
+
+.top1{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    top: 41px;
+    left: 104px;
+}
+
+.top2{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    top: 41px;
+    left: 192px;
+}
+
+.top3{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    top: 41px;
+    left: 280px;
+}
+
+.top4{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    top: 472px;
+    left: 150px;
+}
+
+.top5{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    top: 472px;
+    left: 237px;
+}
+
+.top6{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    top: 472px;
+    left: 319px;
+}
+
+.bottom1{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    top: 60px;
+    left: 148px;
+}
+
+.bottom2{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    top: 60px;
+    left: 237px;
+}
+
+.bottom3{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    top: 60px;
+    left: 321px;
+}
+
+.bottom4{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    top: 493px;
+    left: 106px;
+}
+
+.bottom5{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    top: 493px;
+    left: 193px;
+}
+
+.bottom6{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    top: 493px;
+    left: 275px;
+}
+}

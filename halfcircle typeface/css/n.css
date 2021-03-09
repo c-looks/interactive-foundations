@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.bounding-box{
+    position: relative;
+    width: 425px;
+    height: 550px;
+    background: none;
+    margin: 20px;
+}
+
+.halfcircle-veritcal-right:hover{
+    transform: rotate(180deg);
+    background: pink;
+}
+
+.halfcircle-veritcal-left:hover{
+    transform: rotate(180deg);
+    background: pink;
+}
+
+.halfcircle-diagonal-small-top:hover{
+    transform: rotate(220deg);
+    background: blue;
+}
+
+.halfcircle-diagonal-small-bottom:hover{
+    transform: rotate(220deg);
+    background: blue;
+}
+
+.halfcircle-veritcal-right{
+    position: absolute;
+    width: 45px;
+    height: 90px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: black;
+}
+
+.halfcircle-veritcal-left{
+    position: absolute;
+    width: 45px;
+    height: 90px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: black;
+}
+
+.halfcircle-diagonal-small-top{
+    position: absolute;
+    width: 22.5px;
+    height: 45px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: black;
+    transform: rotate(325deg);
+}
+
+.halfcircle-diagonal-small-bottom{
+    position: absolute;
+    width: 22.5px;
+    height: 45px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: black;
+    transform: rotate(325deg);
+}
+
+.r1{
+    top: 51px;
+    left: 347px;
+}
+
+.r2{
+    top: 222px;
+    left: 347px;
+}
+
+.r3{
+    top: 318px;
+    left: 60px;
+}
+
+.r4{
+    top: 146px;
+    left: 60px;
+}
+
+.r5{
+    top: 393px;
+    left: 347px;
+}
+
+.l1{
+    top: 60px;
+    left: 16px;
+}
+
+
+.l2{
+    top: 137px;
+    left: 303px;
+}
+
+.l3{
+    top: 307px;
+    left: 303px;
+}
+
+.l4{
+    top: 405px;
+    left: 16px;
+}
+
+.l5{
+    top: 231px;
+    left: 16px;
+}
+
+.t1{
+    top: 50px;
+    left: 69px;
+}
+
+.t2{
+    top: 119px;
+    left: 117px;
+}
+
+.t3{
+    top: 189px;
+    left: 165px;
+}
+
+.t4{
+    top: 260px;
+    left: 213px;
+}
+
+.t5{
+    top: 332px;
+    left: 261px;
+}
+
+.t6{
+    top: 402px;
+    left: 310px;
+}
+
+.b1{
+    top: 98px;
+    left: 75px;
+}
+
+.b2{
+    top: 167px;
+    left: 123px;
+}
+
+.b3{
+    top: 237px;
+    left: 171px;
+}
+
+.b4{
+    top: 308px;
+    left: 220px;
+}
+
+.b5{
+    top: 380px;
+    left: 267px;
+}
+
+.b6{
+    top: 448px;
+    left: 315px;
+}
+
+}

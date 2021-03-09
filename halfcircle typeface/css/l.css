@@ -8,20 +8,10 @@ body{
 
 .bounding-box{
     position: relative;
-    width: 385px;
+    width: 315px;
     height: 550px;
     background: none;
     margin: 20px;
-}
-
-.halfcircle-horizontal:hover{
-    transform: rotate(180deg);
-    background-color: orange;
-}
-
-.halfcircle-veritcal:hover{
-    transform: rotate(180deg);
-    background-color: pink;
 }
 
 .halfcircle-horizontal{
@@ -38,6 +28,16 @@ body{
     background: black;
 }
 
+.halfcircle-horizontal:hover{
+    transform: rotate(180deg);
+    background-color: orange;
+}
+
+.halfcircle-veritcal:hover{
+    transform: rotate(180deg);
+    background-color: pink;
+}
+
 .top1{
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
@@ -48,11 +48,18 @@ body{
 .top2{
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
+    top: 15px;
+    left: 320px;
+}
+
+.top3{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
     top: 450px;
     left: 60px;
 }
 
-.top3{
+.top4{
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     top: 450px;
@@ -80,18 +87,25 @@ body{
     left: 146px;
 }
 
+.bottom4{
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    top: 493px;
+    left: 320px;
+}
+
 .right1{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    top: 60px;
-    left: 322px;
+    top: 144px;
+    left: 408px;
 }
 
 .right2{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    top: 231px;
-    left: 322px;
+    top: 318px;
+    left: 408px;
 }
 
 .right3{
@@ -108,13 +122,6 @@ body{
     left: 60px;
 }
 
-.right5{
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    top: 405px;
-    left: 322px;
-}
-
 .left1{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -125,25 +132,32 @@ body{
 .left2{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    top: 146px;
-    left: 281px;
+    top: 58px;
+    left: 365px;
 }
 
 .left3{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    top: 318px;
-    left: 281px;
+    top: 231px;
+    left: 365px;
 }
 
 .left4{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     top: 405px;
-    left: 16px;
+    left: 365px;
 }
 
 .left5{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    top: 405px;
+    left: 16px;
+}
+
+.left6{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     top: 231px;
