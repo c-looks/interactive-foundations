@@ -3,7 +3,10 @@
 }
 
 body{
-	background-color: lightyellow;
+	background: rgb(77,241,221);
+	background: linear-gradient(180deg, rgba(77,241,221,1) 0%, rgba(165,249,31,1) 47%, rgba(255,233,0,1) 100%);
+	font-family: helvetica;
+	font-size: 36px;
 }
 
 .halfcircle-horizontal:hover{
@@ -1321,3 +1324,27 @@ body{
 	    background: none;
 	    margin: 20px;
 	}
+
+.bounding-box-circle1{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: none;
+	margin: 10px;
+	display: inline-block;
+}
+
+	.circle{
+		width: 200px;
+		height: 200px;
+		border-radius: 200px;
+		background: #ec56df;
+		display: inline-block;
+	}
+
+	.full-alphabet-link{
+		position: relative;
+		padding: 38px;
+		font-color: lightpink;
+	}
+
