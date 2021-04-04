@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Random Link</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <a href="#" id="random-link">link to next page</a>
+
+    </div> 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+
+        // complex random url
+
+        /* 
+
+        $(document).ready(function(){
+
+            // Will execute randomLink every 1.5 seconds 
+            var intervalID = window.setInterval(randomLink, 1500);
+            
+            function randomLink() {
+
+                // links
+                var myLinks = ['https://www.google.com/', 'https://www.youtube.com/', 'https://www.nytimes.com/', 'https://www.instagram.com' ]
+                // text
+                var myTexts = ['Google', 'Youtube', 'NY Times', 'Instagram' ]
+                
+                var number = Math.floor(Math.random() * myLinks.length);
+
+                var link = myLinks[number];
+                var text = myTexts[number];
+
+
+                $('#random-link').attr("href", link);
+                $('#random-link').html(text);
+            }
+
+        });
+
+        */
+
+        // simple random url
+
+        $(document).ready(function(){
+            // links
+            var myLinks = ['https://www.google.com/', 'https://www.youtube.com/', 'https://www.nytimes.com/', 'https://www.instagram.com' ]
+            var link = myLinks[Math.floor(Math.random() * myLinks.length)];
+            $('#random-link').attr("href", link);
+
+        });
+
+    </script>
+
+
+</body>
+</html>

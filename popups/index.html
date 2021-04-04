@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>PopUps</title>
+</head>
+<body>
+    <div id="container">
+
+        <a href="https://nytimes.com" id="popup-link">this will open a popup</a> 
+        
+        <a href="https://google.com" id="popup-link-2">this will open another popup</a> 
+
+
+    </div> 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+
+        $(document).ready(function(){
+    
+            // click to open links in new windows with measurements
+            var width = screen.width;
+            var height = screen.height; 
+
+            var randomnumber = Math.floor((Math.random()*100)+1); 
+
+
+            // open windows when you click
+
+            $('#popup-link').click(function() {
+                window.open($(this).attr('href'),'_blank','PopUp'+randomnumber+',scrollbars=1,menubar=0,resizable=1, width='+width/5+', height=300, top=0, left='+width/2+'');    
+                window.open('https://yahoo.com','_blank','PopUp'+randomnumber+',scrollbars=1,menubar=0,resizable=1, width='+width/5+', height=300, top=400, left=400');    
+                
+                window.open('https://cca.edu','_blank','PopUp'+randomnumber+',scrollbars=1,menubar=0,resizable=1, width='+width/5+', height=300, top=900, left=900');       
+
+                return false;
+            });
+
+            $('#popup-link-2').click(function() {
+                window.open($(this).attr('href'),'_blank','PopUp'+randomnumber+',scrollbars=1,menubar=0,resizable=1, width='+width/2+', height=height, top=0, left='+width/2+'');    
+                return false;
+            });            
+
+        });
+
+    </script>
+
+
+</body>
+</html>
