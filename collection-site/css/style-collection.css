@@ -1,5 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
-	font-family: arial;
+	font-family: helvetica;
 	background-image: url("images/electron-micrograph-mycelium.png");
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
 	background-color: blue;
+}
+
+.container{
+	background: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.quote{
+	font-size: 131px;
+	grid-area: 1 / 1 / 3 / 3;
+	display: flex;
+	padding-left: 50px;
+}
+
+.citation{
+	font-style: italic;
+	font-size: 75px;
+	grid-area: 3 / 1 / 3 / 3;
+	padding-left: 50px;
+}
+
+.box{
+	background: none;
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: flex;
+	flex: 1;
+	min-width: 50%;
+}
+
+#diagram-1{
+	grid-area: 1 / 1 / 1 / 1;
+	animation: mymove 60s infinite; 
+
+}
+
+#diagram-2{
+	grid-area: 1 / 2 / 1 / 2;
+	animation: mymove 120s infinite; 
+}
+
+#diagram-3{
+	grid-area: 1 / 3 / 1 / 3;
+	animation: mymove 45s infinite; 
+
+}
+
+#diagram-4{
+	grid-area: 2 / 1 / 2 / 1;
+	animation: mymove 30s infinite; 
+}
+
+#diagram-5{
+	grid-area: 2 / 2 / 2 / 2;
+	animation: mymove 60s infinite; 
+}
+
+#diagram-6{
+	grid-area: 2 / 3 / 2 / 3;
+	animation: mymove 45s infinite; 
+}
+
+#diagram-7{
+	grid-area: 3 / 1 / 3 / 1;
+	animation: mymove 120s infinite; 
+}
+
+#diagram-8{
+	grid-area: 3 / 2 / 3 / 2;
+	animation: mymove 30s infinite; 
+}
+
+#diagram-9{
+	grid-area: 3 / 3 / 3 / 3;
+	animation: mymove 60s infinite; 
+
+}
+
+@keyframes mymove{
+	50% {opacity: 0;}
 }
