@@ -17,13 +17,13 @@
 			<p>a thousand plateaus: capitalism and schizophrenia by Deleuze and Guattari</p>
 		</div>
 	    <div class="box" id="diagram-1">
-	    	<img src="css/images/internet-diagram-1.jpg">
+	    	<a href="internet-clouds.html" id="popup-link"><img src="css/images/internet-diagram-1.jpg"></a>
 	    </div>
 	    <div class="box" id="diagram-2">
-	    	<img src="css/images/internet-diagram-2.png">
+	    	<a href="internet-clouds-2.html" id="popup-link-2"><img src="css/images/internet-diagram-2.png"></a>
 	    </div>
 	    <div class="box" id="diagram-3">
-	    	<img src="css/images/internet-diagram-3.png">
+	    	<a href="internet-clouds-3.html" id="popup-link-3"><img src="css/images/internet-diagram-3.png"></a>
 	    </div>
 	    <div class="box" id="diagram-4">
 	    	<img src="css/images/internet-diagram-4.png">
@@ -44,5 +44,39 @@
 	    	<img src="css/images/internet-diagram-9.png">
 	    </div>
 	</section>
+
+	 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+
+        $(document).ready(function(){
+    
+            // click to open links in new windows with measurements
+            var width = screen.width;
+            var height = screen.height; 
+
+            var randomnumber = Math.floor((Math.random()*100)+1); 
+
+
+            // open windows when you click
+
+            $('#popup-link').click(function() {
+                window.open($(this).attr('href'),'_blank','PopUp'+randomnumber+',scrollbars=1,menubar=0,resizable=1, width='+width/4+', height=275, top=0, left='+width/2+'');
+                return false;
+            });
+
+            $('#popup-link-2').click(function() {
+                window.open($(this).attr('href'),'_blank','PopUp'+randomnumber+',scrollbars=1,menubar=0,resizable=1, width='+width/3+', height=400, top=200, left='+width/1+'');    
+                return false;
+            });     
+
+            $('#popup-link-3').click(function() {
+                window.open($(this).attr('href'),'_blank','PopUp'+randomnumber+',scrollbars=1,menubar=0,resizable=1, width='+width/3+', height=375, top=900, left='+width/5+'');    
+                return false;
+            });           
+
+        });
+
+    </script>
 </body>
 </html>

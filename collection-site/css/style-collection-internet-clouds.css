@@ -1,0 +1,11 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #6df7fd;
+	background-image: url("images/internet-cloud-1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
+}
