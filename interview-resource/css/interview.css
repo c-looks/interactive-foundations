@@ -33,6 +33,24 @@ body{
 	/*letter-spacing: 3px;*/
 }
 
+/* unvisited link */
+a:link {
+	color: orange;
+	text-decoration: none;
+}
+
+a:hover{
+	font-family: vtf_victoriannathin;
+	background-color: #EAFA8A;
+	text-decoration: none;
+}
+
+a:visited{
+	font-family: vtf_victoriannathin;
+	color: #b987de;
+	text-decoration: none;
+}
+
 .container{
 	background-color: none;
 	display: grid;
@@ -48,7 +66,6 @@ body{
 	background-color: none;
 	display: grid;
 	grid-template-columns: 95px 1fr 95px 1fr 95px 1fr;
-	/*grid-template-rows: 15% 25% auto;*/
 	grid-template-rows: 95px 1fr 95px 1fr 95px 1fr;
 	grid-gap: 15px;
 	height: 100%;
