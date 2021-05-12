@@ -1,10 +1,43 @@
+@font-face{
+	font-family: "Compagnon";
+	src: url("../fonts/Compagnon-Roman.woff") format("woff"),
+		 url("../fonts/Compagnon-Roman.woff2") format("woff2"),
+		 url("../fonts/Compagnon-Roman.eot") format("eot")
+		 url("../fonts/Compagnon-Bold.woff") format("woff"),
+		 url("../fonts/Compagnon-Bold.woff2") format("woff2"),
+		 url("../fonts/Compagnon-Bold.eot") format("eot");
+}
+
+@font-face {
+    font-family: "vtf_victoriannaitalic";
+    src: url("../fonts/vtf_victorianna_thin_talic-webfont.eot");
+    src: url("../fonts/vtf_victorianna_thin_talic-webfont.eot?#iefix") format('embedded-opentype'),
+         url("../fonts/vtf_victorianna_thin_talic-webfont.woff") format('woff'),
+         url("../fonts/vtf_victorianna_thin_talic-webfont.ttf") format('truetype'),
+         url("../fonts/vtf_victorianna_thin_talic-webfont.svg#vtf_victoriannaitalic") format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vtf_victoriannathin';
+    src: url('../fonts/vtf_victorianna_thin-webfont.eot');
+    src: url('../fonts/vtf_victorianna_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vtf_victorianna_thin-webfont.woff') format('woff'),
+         url('../fonts/vtf_victorianna_thin-webfont.ttf') format('truetype'),
+         url('../fonts/vtf_victorianna_thin-webfont.svg#vtf_victoriannathin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-	background-image: url("images/jasmine-riso-crop.png");
-	font-family: helvetica;
+	font-family: Compagnon;
+	background-image: url("../images/jasmine-riso-crop.png");
 	color: white;
-	background-repeat: repeat;
 	background-color:#ffc800;
 }
+
 
 a:link {
     color: #b987de;
@@ -23,9 +56,66 @@ a:visited {
     font-style: italic;
 }
 
-.desc {
+li{
+	font-size: 1.15vw;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 20% 1fr 1fr;
+	grid-gap: 30px;
+}
+
+.big-oval{
+	display: flex;
+    grid-area: 2 / 2 / 4 / 3;
+    background: #ffc800;
+    max-width: 46.5vw;
+    height: auto;
+    border-radius: 693px;
+}
+
+#name{
+	font-size: 2vw;
+	grid-area: 1 / 1 / 2 / 2;
+	display: flex;
+	justify-content:center;
+	align-content: center;
+}
+
+#desc {
 	margin: auto;
 	padding: 30px;
 	color: #39B54A;
+	font-size: 1.5vw;
+	background-color:#ffc800;;
+}
+
+#projects{
+	font-size: 1.5vw;
+	grid-area: 2 / 2 / 3 / 3;
+	padding-left: 150px;
+	padding-top: 100px;
+}
+
+#exercises{
+	grid-area: 3 / 2 / 4 / 3;
+	font-size: 1.5vw;
+	padding-left: 150px;
+}
+
+#shroom{
+	display: flex;
+	justify-content:center;
+	align-content: center;
+	grid-area: 1 / 2 / 2 / 3;
+}
+
+#jasmine{
+	display: flex;
+	grid-area: 3 / 1 / 4 / 2;
+	max-width: 100%;
+	height: auto;
 }
 
