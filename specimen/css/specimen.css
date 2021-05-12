@@ -9,6 +9,22 @@ body{
 	font-size: 36px;
 }
 
+a:link {
+	color: orange;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: yellow;
+	text-decoration: none;
+}
+
+a:visited{
+	font-style: italic;
+	color: white;
+	text-decoration: none;
+}
+
 .halfcircle-horizontal:hover{
     transform: rotate(180deg);
     background-color: white;
