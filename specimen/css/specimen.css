@@ -11,42 +11,42 @@ body{
 
 .halfcircle-horizontal:hover{
     transform: rotate(180deg);
-    background-color: orange;
+    background-color: white;
 }
 
 .halfcircle-veritcal:hover{
     transform: rotate(180deg);
-    background-color: pink;
+    background-color: white;
 }
 
 .halfcircle-horizontal-small:hover{
     transform: rotate(180deg);
-    background-color: orange;
+    background-color: white;
 }
 
 .halfcircle-veritcal-right:hover{
     transform: rotate(180deg);
-    background: pink;
+    background: white;
 }
 
 .halfcircle-veritcal-left:hover{
     transform: rotate(180deg);
-    background: pink;
+    background: white;
 }
 
 .halfcircle-diagonal-small-top:hover{
     transform: rotate(220deg);
-    background: blue;
+    background: white;
 }
 
 .halfcircle-diagonal-small-bottom:hover{
     transform: rotate(220deg);
-    background: blue;
+    background: white;
 }
 
 .halfcircle-veritcal-small:hover{
     transform: rotate(180deg);
-    background-color: pink;
+    background-color: white;
 }
 
 .halfcircle-horizontal{

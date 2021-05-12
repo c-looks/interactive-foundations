@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 10px;
+}
+
 body {background-color:#f8bfff;}
 
 body {font-family: helvetica}
