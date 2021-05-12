@@ -1,13 +1,31 @@
-*{
-	margin: 0;
-	padding: 10px;
+body {
+	background-image: url("images/jasmine-riso-crop.png");
+	font-family: helvetica;
+	color: white;
+	background-repeat: repeat;
+	background-color:#ffc800;
 }
 
-body {background-color:#f8bfff;}
+a:link {
+    color: #b987de;
+    text-decoration: none;
+}
 
-body {font-family: helvetica}
+a:hover {
+    background-color: #EAFA8A;
+    text-decoration: none;
+    font-style: italic;
+}
 
-.desc {margin: auto;}
+a:visited {
+    color: hotpink;
+    text-decoration: none;
+    font-style: italic;
+}
 
-.desc {padding: 30px;}
+.desc {
+	margin: auto;
+	padding: 30px;
+	color: #39B54A;
+}
 
