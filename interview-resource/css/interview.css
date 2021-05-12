@@ -24,7 +24,6 @@
          url('../fonts/vtf_victorianna_thin-webfont.svg#vtf_victoriannathin') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body{
@@ -51,11 +50,16 @@ a:visited{
 	text-decoration: none;
 }
 
+img{
+	max-width: 100%;
+	height: auto;
+}
+
 .container{
 	background-color: none;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 15% 12% 350px auto;
+	grid-template-rows: 15% 15% 40% 30%;
 	grid-gap: 10px;
 	height: 100%;
 	align-content: start;
@@ -66,7 +70,7 @@ a:visited{
 	background-color: none;
 	display: grid;
 	grid-template-columns: 95px 1fr 95px 1fr 95px 1fr;
-	grid-template-rows: 95px 1fr 95px 1fr 95px 1fr;
+	grid-template-rows: 4% 1fr 4% 1fr 4% 1fr;
 	grid-gap: 15px;
 	height: 100%;
 }
@@ -87,10 +91,11 @@ a:visited{
 }
 
 .name-image{
-	vertical-align: center;
-	align-self: center;
-	padding-left: 60px;
-	padding-top: 25px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
 }
 
 .question{
@@ -103,6 +108,11 @@ a:visited{
 	font-family: vtf_victoriannaitalic;
 	font-size: 1.5vw;
 	line-height: 1.4;
+	padding-top: 52px;
+}
+
+.small-name{
+	padding-top: 10px;
 }
 
 #description{
@@ -139,32 +149,26 @@ a:visited{
 
 #LA-small{
 	grid-area: 2 / 1 / 3 / 2;
-	padding-top: 40px;
 }
 
 #MB-small{
 	grid-area: 2 / 3 / 3 /4;
-	padding-top: 40px;
 }
 
 #CP-small{
 	grid-area: 2 / 5 /4 / 6;
-	padding-top: 40px;
 }
 
 #LA-response1{
 	grid-area: 2 / 2 / 3 / 3;
-	padding-top: 65px;
 }
 
 #MB-response1{
 	grid-area: 2 / 4 / 3 / 5;
-	padding-top: 65px;
 }
 
 #CP-response1{
 	grid-area: 2 / 6 / 3 / 7;
-	padding-top: 65px;
 }
 
 #q2{
@@ -173,32 +177,26 @@ a:visited{
 
 #LA-small2{
 	grid-area: 4 / 3 / 5 / 4;
-	padding-top: 40px;
 }
 
 #MB-small2{
 	grid-area: 4 / 5 / 5 / 6;
-	padding-top: 40px;
 }
 
 #CP-small2{
 	grid-area: 4 / 1 / 5 /2;
-	padding-top: 40px;
 }
 
 #CP-response2{
 	grid-area: 4 / 2 / 5 / 3;
-	padding-top: 65px;
 }
 
 #LA-response2{
 	grid-area: 4 / 4 / 5 / 5;
-	padding-top: 65px;
 }
 
 #MB-response2{
 	grid-area: 4 / 6 / 5 / 7;
-	padding-top: 65px;
 }
 
 #q3{
@@ -221,15 +219,12 @@ a:visited{
 
 #MB-response3{
 	grid-area: 6 / 2 / 7 / 3;
-	padding-top: 35px;
 }
 
 #CP-response3{
 	grid-area: 6 / 4 / 7 / 5;
-	padding-top: 35px;
 }
 
 #LA-response3{
 	grid-area: 6 / 6 / 7 / 7;
-	padding-top: 35px;
 }
